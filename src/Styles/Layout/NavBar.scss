@@ -1,0 +1,39 @@
+.NavBar{
+    background: var(--bg);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    @include Shadow;
+    .Left{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        >div{
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            background: var(--bg2);
+            padding: 8px 15px;
+            border-radius: 4px;
+            h5{
+                margin-bottom: 0;
+                font-size: 14px;
+            }
+        }
+        svg{
+            font-size: 25px;
+        }
+    }
+    .Right{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        svg{
+            font-size: 25px;
+        }
+        img{
+            width: 40px;
+        }
+    }
+}

@@ -1,0 +1,26 @@
+:root {
+    --primary:#4e97fd;
+    --secondary : #ffd12e;
+    --text: black;
+    --subtext:#aeb4be;
+    --bg: #fff;
+    --bg2:  #f6f9fc;
+    --shadow: rgba(0, 0, 0, 0.15);
+    --white: white;
+    --bgsidebar: #2B3445;
+    --textsidebar:#fff;
+    --sidebarwidth: 280px;
+}
+
+:root:has(.dark) {
+    --primary: #7a987c;     
+    --secondary: #ffd12e;   
+    --text: #ffffff;        
+    --bg: #1f1f1f;          
+    --bg2: #2c2c2c;         
+    --shadow: rgba(255, 255, 255, 0.15); 
+    --gray: #a0aec0;  
+
+
+
+}

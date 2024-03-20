@@ -1,0 +1,15 @@
+import App from './App';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './Styles/App/index.scss'
+import { createRoot } from "react-dom/client";
+import ProviderContainer from './ProviderContainer';
+import './Hooks/useChangeLanguage'; 
+
+const root = createRoot(document.getElementById("root") as HTMLElement);
+root.render(
+
+  <ProviderContainer>
+    <App />
+  </ProviderContainer>    
+
+);

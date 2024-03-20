@@ -1,0 +1,6 @@
+.Card{
+    background: var(--bg);
+    @include Shadow;
+    padding: 40px;
+    border-radius: 10px;
+}
